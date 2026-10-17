@@ -1,0 +1,18 @@
+{
+  "mautic": "6.0.9",
+  "plugin": "0.1.3",
+  "authenticated_native_editor": true,
+  "layout": "native 8/4 columns, routing below composition",
+  "subject_left": true,
+  "message_left": true,
+  "replyto_right": true,
+  "tokens_right": true,
+  "token_count": 3,
+  "inserted_token": "{formfield=email}",
+  "insertion_verified_in_editor": true,
+  "saved_action": false,
+  "fixture_cleaned": true,
+  "server_stopped": true,
+  "real_mail_sent": false,
+  "screenshot": "composition-native-layout-6.0.9.png"
+}

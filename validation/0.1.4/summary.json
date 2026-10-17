@@ -1,0 +1,11 @@
+{
+  "version": "0.1.4",
+  "status": "PASS",
+  "scope": "Action label only; native translation loaders checked against Mautic 4, 5 and 6 dependencies. Full integration not rerun.",
+  "action": "form.routing_results",
+  "bundle": "WebAnyOneFormRoutingBundle",
+  "unit_assertions": 96,
+  "php74_all_sources_lint": "PASS",
+  "publication_scan": "PASS",
+  "full_integration_rerun": false
+}

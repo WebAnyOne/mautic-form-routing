@@ -1,0 +1,19 @@
+{
+  "name": "webanyone/mautic-form-routing",
+  "type": "mautic-plugin",
+  "license": "GPL-3.0-or-later",
+  "version": "0.1.4",
+  "description": "WebAnyOne — Routage des résultats de formulaire Mautic",
+  "require": {
+    "php": ">=7.4 <8.4",
+    "mautic/core-lib": "4.4.13 || 5.2.11 || 6.0.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "MauticPlugin\\WebAnyOneFormRoutingBundle\\": ""
+    }
+  },
+  "extra": {
+    "install-directory-name": "WebAnyOneFormRoutingBundle"
+  }
+}

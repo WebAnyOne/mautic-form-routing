@@ -1,0 +1,7 @@
+{
+  "mautic": "4.4.13",
+  "php": "7.4.33",
+  "assertions": 107,
+  "captured": 16,
+  "status": "PASS"
+}

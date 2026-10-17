@@ -1,0 +1,29 @@
+{
+    "mautic": "5.2.11",
+    "php": "8.3.14",
+    "plugin": "with",
+    "assertions": 18,
+    "status": "PASS",
+    "native_definition": {
+        "group": "mautic.email.actions",
+        "label": "Send form results",
+        "description": "mautic.form.action.sendemail.descr",
+        "formType": "Mautic\\FormBundle\\Form\\Type\\SubmitActionEmailType",
+        "formTheme": "@MauticForm\/FormTheme\/FormAction\/_formaction_properties_row.html.twig",
+        "formTypeCleanMasks": {
+            "message": "raw"
+        },
+        "eventName": "mautic.form.on_execute_submit_action",
+        "allowCampaignForm": true
+    },
+    "native_message": "<strong>Agence<\/strong>: {formfield=agency}<br \/><strong>Courriel<\/strong>: {formfield=email}<br \/><strong>Demande<\/strong>: {formfield=message}<br \/>",
+    "native_tokens": {
+        "{formfield=agency}": "Agence",
+        "{formfield=email}": "Courriel",
+        "{formfield=message}": "Demande"
+    },
+    "native_html_sha256": "5fa26a3dc3d655a5cfdcb65d33ea6e4b2268e374022d7d513bd210c6fa26520c",
+    "after_custom_html_sha256": "5fa26a3dc3d655a5cfdcb65d33ea6e4b2268e374022d7d513bd210c6fa26520c",
+    "empty_session_message": "",
+    "empty_session_tokens": []
+}

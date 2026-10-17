@@ -1,0 +1,7 @@
+{
+    "mautic": "6.0.9",
+    "assertions": 7,
+    "status": "PASS",
+    "native_html_identical": true,
+    "native_html_sha256": "72372aecad77b7c0c14d2fbc12b34e414f3e89e1bed431e6c2710614ef3c5778"
+}
